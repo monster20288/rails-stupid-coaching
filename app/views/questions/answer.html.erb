@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <div class="row justifly-content-center">
+    <div class="col-md-12">
+      <h1> Stupid Coaching</h1>
+      <%= link_to "Go Back", root_path %>
+      <%# User Input Come form Html %>
+      <div class="bd-callout mb-5">
+        <h2><%= @userinput %></h2>
+        <p>-  You</p>
+      </div>
+      <%# answer come from Controller %>
+      <div class="bd-callout bd-callout-warning mb-5 bg-warning">
+        <h2><%= @answer %></h2>
+        <p><b>- Your Coach</b></p>
+      </div>
+    </div>
+  </div>
+</div>
